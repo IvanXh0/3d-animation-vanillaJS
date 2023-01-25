@@ -2,4 +2,4 @@
 
 ## Preview
 
-![](https://github.com/IvanXh0/3d-animation-vanillaJS/preview.gif)
+![](https://github.com/IvanXh0/3d-animation-vanillaJS/blob/main/preview.gif)
