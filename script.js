@@ -46,18 +46,18 @@ container.addEventListener("mouseenter", (e) => {
   setTimeout(() => {
     card.style.transition = "none";
   }, 300);
-  //Popout
+  
+  // Creating the 3D effect
   title.style.transform = "translateZ(150px)";
   phone.style.transform = "translateZ(200px) rotateZ(-45deg)";
   description.style.transform = "translateZ(125px)";
   sizes.style.transform = "translateZ(100px)";
   purchase.style.transform = "translateZ(75px)";
 });
-//Animate Out
 container.addEventListener("mouseleave", (e) => {
   card.style.transition = "all 0.5s ease";
+  // Resetting to default
   card.style.transform = `rotateY(0deg) rotateX(0deg)`;
-  //Popback
   title.style.transform = "translateZ(0px)";
   phone.style.transform = "translateZ(0px) rotateZ(0deg)";
   description.style.transform = "translateZ(0px)";
